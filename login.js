@@ -36,7 +36,7 @@ function auth() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     if(username=="simo" && email== "essalmi@gmail.com" && password=="simo123"){
-        window.location.assign("car.html");
+        window.location.assign("index.html");
         alert("Login Successfully")
     }
     else{
